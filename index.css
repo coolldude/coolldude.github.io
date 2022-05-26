@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Lato:wght@300;700&display=swap");
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background-image:url("black-gradient-background11.jpg");
+  align-items: center;
+}
+
+#container {
+  margin-top: 22vh;
+  width: 70vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#profile-picture {
+  height: fit-content;
+  border: 3px #69695d solid;
+  margin-right: 5vw;
+}
+
+#profile-picture > img {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}
+
+#profile-picture,
+#profile-picture > img {
+  width: 15vw;
+  border-radius: 3px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit !important;
+}
+
+#hello {
+  font-family: "Fira Mono", monospace;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+#name {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+#whoami {
+  font-family: "Lato", sans-serif;
+  color: #d6d6d6;
+  font-size: 4rem;
+}
+
+#github-handle {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#links {
+   position:relative;
+   width:100%;
+   height:100vh;
+   background:#1b1a17;
+}
+nav{
+  display: flex;
+  width:84%;
+  margin-left:80%;
+  margin-top:-70%;
+  padding:20px 0;
+  align-items:center;
+  justify-content:space-between;
+}
+nav ul li{
+  display:inline-block;
+  list-style:none;
+  margin:10px 20px;
+}
+nav ul li a{
+  color:rgb(255, 255, 255);
+  font-weight:bold;
+}
+nav ul li a:hover{
+  color:red;
+}
+#cv{
+  margin-left:-35%;
+  margin-top:-7%;
+  color:rgb(0, 0, 0);
+  background-color: #ffb17a;
+  width: 140px;
+  font-weight:bold;
+  text-align: center;
+}
